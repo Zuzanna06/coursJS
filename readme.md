@@ -1,5 +1,5 @@
 # <center> Cours de JavaScript  
-## <center> Intoduction au JavaScript <center>
+   ## <p align= "center"> Intoduction au JavaScript </p>
 
 
 
