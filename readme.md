@@ -23,7 +23,7 @@ alert("ma variable a est de type : " + typeof(a) +
 )
 ```
 
-La méthode alert() de JavaScript m'affiche une fenêtre
+La méthode alert() de JavaScript m'affiche une fenêtre ci-dessous:
 ![affichage](https://github.com/Zuzanna06/coursJS/blob/main/img/alert-ma-variable-typ.jpg)
 
 
@@ -35,7 +35,7 @@ alert("ma variable machaine est de type: " + typeof(machaine) +
 "\nma variable maChaine est de type : " + typeof(maChaine));
 ```
 
-La méthode alert() de JavaScript m'affiche une fenêtre
+La méthode alert() de JavaScript m'affiche une fenêtre ci-dessous:
 ![affichage](https://github.com/Zuzanna06/coursJS/blob/main/img/2.png)
 
 
@@ -50,7 +50,7 @@ alert("ma variable n est de type: " + typeof(n) +
 alert("ma variable")
 ```
 
-La méthode alert() de JavaScript m'affiche une fenêtre
+La méthode alert() de JavaScript m'affiche une fenêtre ci-dessous:
 ![affichage](https://github.com/Zuzanna06/coursJS/blob/main/img/3.png)
 
 
