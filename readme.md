@@ -1,16 +1,11 @@
 # <p align= "center"> Cours de JavaScript  </p>
    ## <p align= "center"> Intoduction au JavaScript </p>  
-<<<<<<< HEAD
-   **JavaScript** est un langage de programmation qui permet de créer du contenu mis à jour de façon dynamique, de contrôler le contenu multimédia, d'animer des images, et tout ce à quoi on peut penser. Bon, peut-être pas tout, mais vous pouvez faire bien des choses avec quelques lignes de JavaScript.  
-   ## <p align= "center"> Une variable?? </p>  
-   **JavaScript** est un langage de programmation qui permet de créer du contenu mis à jour de façon dynamique, de contrôler le contenu multimédia, d'animer des images, et tout ce à quoi on peut penser. Bon, peut-être pas tout, mais vous pouvez faire bien des choses avec quelques lignes de JavaScript.  
-=======
    **JavaScript** est un langage de programmation qui permet de créer du contenu mis à jour de façon dynamique, de contrôler le contenu multimédia, d'animer des images, et tout ce à quoi on peut penser. Bon, peut-être pas tout, mais vous pouvez faire bien des choses avec quelques lignes de JavaScript.
->>>>>>> 41da08bd13d0f928409176c94c929f62dce0fddf
 
 
 
-```var maChaine = new String("")
+```
+var maChaine = new String("")
 var a = 42;
 var b = 4.2;
 var c = -42;
@@ -21,11 +16,11 @@ alert("ma variable a est de type : " + typeof(a) +
 "\nma variable c est de type : " + typeof(c) +
 "\nma variable d est de type : " + typeof(d)
 )
-
+```
 
 
 La méthode alert() de JavaScript m'affiche une fenêtre
-![affichage](img/alert-ma-variable-typ.jpg](https://github.com/Zuzanna06/coursJS/blob/main/img/alert-ma-variable-typ.jpg)
+![affichage](https://github.com/Zuzanna06/coursJS/blob/main/img/alert-ma-variable-typ.jpg)
 
 ![affichage](img/variable.png)
 
