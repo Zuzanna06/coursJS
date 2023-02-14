@@ -25,7 +25,7 @@ alert("ma variable a est de type : " + typeof(a) +
 
 
 La méthode alert() de JavaScript m'affiche une fenêtre
-![affichage](img/alert-ma-variable-typ.jpg)
+![affichage]([img/alert-ma-variable-typ.jpg](https://github.com/Zuzanna06/coursJS/blob/main/img/alert-ma-variable-typ.jpg))
 
 ![affichage](img/variable.png)
 
