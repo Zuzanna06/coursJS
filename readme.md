@@ -1,8 +1,12 @@
 # <p align= "center"> Cours de JavaScript  </p>
    ## <p align= "center"> Intoduction au JavaScript </p>  
+<<<<<<< HEAD
    **JavaScript** est un langage de programmation qui permet de créer du contenu mis à jour de façon dynamique, de contrôler le contenu multimédia, d'animer des images, et tout ce à quoi on peut penser. Bon, peut-être pas tout, mais vous pouvez faire bien des choses avec quelques lignes de JavaScript.  
    ## <p align= "center"> Une variable?? </p>  
    **JavaScript** est un langage de programmation qui permet de créer du contenu mis à jour de façon dynamique, de contrôler le contenu multimédia, d'animer des images, et tout ce à quoi on peut penser. Bon, peut-être pas tout, mais vous pouvez faire bien des choses avec quelques lignes de JavaScript.  
+=======
+   **JavaScript** est un langage de programmation qui permet de créer du contenu mis à jour de façon dynamique, de contrôler le contenu multimédia, d'animer des images, et tout ce à quoi on peut penser. Bon, peut-être pas tout, mais vous pouvez faire bien des choses avec quelques lignes de JavaScript.
+>>>>>>> 41da08bd13d0f928409176c94c929f62dce0fddf
 
 
 
