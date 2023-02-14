@@ -1,14 +1,31 @@
 # <p align= "center"> Cours de JavaScript  </p>
    ## <p align= "center"> Intoduction au JavaScript </p>  
-   JavaScript est un langage de programmation qui permet de créer du contenu mis à jour de façon dynamique, de contrôler le contenu multimédia, d'animer des images, et tout ce à quoi on peut penser. Bon, peut-être pas tout, mais vous pouvez faire bien des choses avec quelques lignes de JavaScript.
+   **JavaScript** est un langage de programmation qui permet de créer du contenu mis à jour de façon dynamique, de contrôler le contenu multimédia, d'animer des images, et tout ce à quoi on peut penser. Bon, peut-être pas tout, mais vous pouvez faire bien des choses avec quelques lignes de JavaScript.  
+   ## <p align= "center"> Une variable?? </p>  
+   **JavaScript** est un langage de programmation qui permet de créer du contenu mis à jour de façon dynamique, de contrôler le contenu multimédia, d'animer des images, et tout ce à quoi on peut penser. Bon, peut-être pas tout, mais vous pouvez faire bien des choses avec quelques lignes de JavaScript.  
 
 
 
+```var maChaine = new String("")
+var a = 42;
+var b = 4.2;
+var c = -42;
+var d = "42";
+
+alert("ma variable a est de type : " + typeof(a) +
+"\nma variable b est de type : " + typeof(b) +
+"\nma variable c est de type : " + typeof(c) +
+"\nma variable d est de type : " + typeof(d)
+)
 
 
 
+La méthode alert() de JavaScript m'affiche une fenêtre
+![affichage](img/alert-ma-variable-typ.jpg)
 
-  
+![affichage](img/variable.png)
+
+
 
 
 # Titre
@@ -77,36 +94,3 @@ des lignes!
      
 
 > section
-
-| ok | okok | okokok
-|---| :-: |:-: |:-:
-|       |       |       |       |       |
-|---    |:-:    |:-:    |:-:    |--:    |
-|       |       |    bonjour benoit   |       |       |
-|       |       |       |       |       |
-|---    |:-:    |:-:    |:-:    |--:    |
-|       |       |       |       |       |
-|   Emoji   |   Nom |   Hex |   Dec |   Prix    |
-|---    |:-:    |:-:    |:-:    |--:    |
-|   &#x1F600;   |   GRINNING FACE   |   ```&#x1F600;``` |   ```&#128512;``` |   0.05 €  |
-|   &#x1F602;   |   FACE WITH TEARS OF JOY  |   ```&#x1F602;``` |   ```&#128514;``` |   0.12 €  |
-|   &#x1F923;   |   ROLLING ON THE FLOOR LAUGHING   |   ```&#x1F923;``` |   ```&#129315;``` |   0.09 €  | 
-
-
-
-
-
-
->section
-
-|       |       |       |       |       |
-|---    |:-:    |:-:    |:-:    |--:    |
-|       |       |    bonjour benoit   |       |       |
-|       |       |       |       |       |
-|---    |:-:    |:-:    |:-:    |--:    |
-|       |       |       |       |       |
-|   Emoji   |   Nom |   Hex |   Dec |   Prix    |
-|---    |:-:    |:-:    |:-:    |--:    |
-|   &#x1F600;   |   GRINNING FACE   |   ```&#x1F600;``` |   ```&#128512;``` |   0.05 €  |
-|   &#x1F602;   |   FACE WITH TEARS OF JOY  |   ```&#x1F602;``` |   ```&#128514;``` |   0.12 €  |
-|   &#x1F923;   |   ROLLING ON THE FLOOR LAUGHING   |   ```&#x1F923;``` |   ```&#129315;``` |   0.09 €  |
