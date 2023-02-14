@@ -36,7 +36,7 @@ alert("ma variable machaine est de type: " + typeof(machaine) +
 ```
 
 La méthode alert() de JavaScript m'affiche une fenêtre
-![affichage](https://github.com/Zuzanna06/coursJS/blob/main/img/alert-ma-variable-typ.jpg)
+![affichage](https://github.com/Zuzanna06/coursJS/blob/main/img/2.png)
 
 
 ```
@@ -51,7 +51,7 @@ alert("ma variable")
 ```
 
 La méthode alert() de JavaScript m'affiche une fenêtre
-![affichage](https://github.com/Zuzanna06/coursJS/blob/main/img/alert-ma-variable-typ.jpg)
+![affichage](https://github.com/Zuzanna06/coursJS/blob/main/img/3.png)
 
 
 
