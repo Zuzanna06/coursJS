@@ -1,4 +1,5 @@
 # <p align= "center"> Cours de JavaScript  </p>
+![affichage](img/JavaScript-logo.png)
    ## <p align= "center"> Intoduction au JavaScript </p>  
    **JavaScript** est un langage de programmation qui permet de créer du contenu mis à jour de façon dynamique, de contrôler le contenu multimédia, d'animer des images, et tout ce à quoi on peut penser. Bon, peut-être pas tout, mais vous pouvez faire bien des choses avec quelques lignes de JavaScript.
    ## <p align= "center"> Qu’est-ce qu’une variable ? </p>  
@@ -52,6 +53,50 @@ alert("ma variable")
 
 La méthode alert() de JavaScript m'affiche une fenêtre ci-dessous:
 ![affichage](https://github.com/Zuzanna06/coursJS/blob/main/img/3.png)
+
+## <p align= "center"> Operateur mathématiques </p>
+operation matematique operateurs comparaison operateur d'affetion les 3 principal
+
+```
+var x = 32;
+var y = 5;
+var z = 2;
+alert(y)
+
+y += z //équivaut y = y + z
+alert(y) //renvoi 7
+y *= z //équivaut y = y * z
+alert(y) //renvoi 14
+y -= z //équivaut y = y - z
+alert(y) //renvoi 12
+y /= z //équivaut y = y / z
+alert(y) //renvoi 6
+y %= z //équivaut y = y % z
+alert(y) //renvoi 0
+```
+
+| Operateur | Définition | 
+| :---------| :---------:|
+| == | Permet de tester l'égalité sur les valeurs | 
+| === | Permet de tester l'égalité en termes de valeurs et de types | 
+| != | Permet de tester la différence en valeurs |
+| <> | Permet également de tester la différence en valeurs |
+| !== | Permet de tester la différence en valeurs ou en types |
+| < | Permet de tester si une valeur est strictement inférieure à une autre |
+| > | Permet de tester si une valeur est strictement supérieure à une autre |
+| <= | Permet de tester si une valeur est inférieure ou égale à une autre |
+| >= | Permet de tester si une valeur est strictement supérieure à une autre |
+
+
+
+
+
+
+
+
+
+
+
 
 
 
