@@ -55,7 +55,7 @@ La méthode alert() de JavaScript m'affiche une fenêtre ci-dessous:
 ![affichage](https://github.com/Zuzanna06/coursJS/blob/main/img/3.png)
 
 ## <p align= "center"> Operateur mathématiques </p>
-operation matematique operateurs comparaison operateur d'affetion les 3 principal
+operation matematique operateurs comparaison operateur d'affetion les 3 principaux
 
 ```
 var x = 32;
@@ -91,10 +91,38 @@ alert(y) //renvoi 0
 
 
 
+## <p align= "center"> Conditions </p>
 
+```
+if (heureActuelle < heureOuverture) {
+    alert('il est trop tôt')
+  }else if (heure >= heureOuverture && heure <= heureFermeture) {
+    if (heureActuelle < 12) {
+      alert('bienvenu nous sommes le matin')
+    } else {
+      alert("bienvenu nous sommes l'apres-midi")
+    }
+  } else {
+    alert('revenez demain')
+  }
 
-
-
+    
+  if (heureActuelle < heureOuverture) {
+    alert('il est trop tôt')
+  }else if (heureActuelle >= heureOuverture && heure <= heureFermeture) {
+    // if (heure < 12) {
+    //   alert('bienvenu nous sommes le matin')
+    // } else {
+    //   alert("bienvenu nous sommes l'apres-midi")
+    // }
+    (heureActuelle < 12) ?
+    alert('bienvenu nous sommes le matin')
+     :
+    alert("bienvenu nous sommes l'apres-midi")
+  } else {
+    alert('revenez demain')
+  }
+```
 
 
 
