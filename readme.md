@@ -92,6 +92,9 @@ alert(y) //renvoi 0
 
 
 ## <p align= "center"> Conditions </p>
+<span style="color: #26B260">texte coloré en vert</span> 
+
+
 
 ```
 if (heureActuelle < heureOuverture) {
@@ -125,7 +128,61 @@ if (heureActuelle < heureOuverture) {
 ```
 
 
+```
+var arrayNbr = [1, 2, 3];
+var arrayStr = ["a", "b", "c"];
+ 
+ arrayNbr.push(4); // [1, 2, 3, 4] ajoute la valeur indiqué à la fin du tableau
+ 
+ arrayNbr.pop(); //[1, 2] retire la dernière valeur
+ 
+ arrayNbr.shift(); //[2, 3] retire la première valeur
+ 
+ arrayNbr.unshift(0); //[0, 1, 2, 3] ajoute la valeur indiqué au début du tableau
+ 
+ arrayStr.concat("d"); //fusionne des tableaux sans changer les valeurs du tableau initial
+ 
+ arrayStr.join('-'); // a-b-c joindre les valeurs du tableau sans changer les valeurs du tableau initial
+ 
+ arrayStr.slice(1); // ["b", "c"] retire le nombre d'éléments indiqué du tableau en partant du début sans changer les valeurs du tableau initial
+ 
+ arrayStr.slice(-1); // ["b", "c"] retire le nombre d'éléments indiqué du tableau en partant du début et en comptant depuis la fin sans changer les valeurs du tableau initial
+ 
+ arrayStr.includes("c"); //true vérifie si la valeur existe
+ 
+ arrayStr.indexOf("c"); //2 renvoi le position (index) de la valeur dans le tableau
+ 
+ arrayNbr.reduce((acc, cou)=> acc + cou ) //6 additionne tous les éléments du tableau
+ 
+ arrayNbr.find(el => el > 2) //3 renvoie la valeur du premier élément trouvé dans le tableau qui respecte la condition
+ 
+ arrayNbr.findIndex(el => el > 2) //2 renvoie l'index du premier élément trouvé dans le tableau qui respecte la condition
+ 
+ arrayNbr.map(el => el * 2); //[2, 4, 6] crée un nouveau tableau avec les résultats de l'appel d'une fonction fournie sur chaque élément du tableau appelant.
+ 
+ arrayNbr.some(el => el > 2); //true passe le test implémenté par la fonction fournie. Elle renvoie un booléen indiquant le résultat du test
+ 
+ arrayNbr.filter(el => el > 1) // [2,3] renvoi tous les éléments qui respectent la condition
+ 
+ arrayNbr.every(el => el > 1); si tous les element respect la condition (TouF)
+ 
+ arrayNbr.reverse(); enverse tout les element dans le tableau
 
+```
+
+| Méthode | Résultat |
+|:-------:|:---------|
+| push(4) |  ajoute la valeur indiqué à la fin du tableau ([1, 2, 3, 4])|
+ | pop() | [1, 2] retire la dernière valeur|
+ | shift() | [2, 3] retire la première valeur|
+ | unshift(0) | [0, 1, 2, 3] ajoute la valeur indiqué au début du tableau|
+ | concat("d")| fusionne des tableaux sans changer les valeurs du tableau initial|
+ | join('-')|  a-b-c joindre les valeurs du tableau sans changer les valeurs du tableau initial|
+ | slice(1)|  ["b", "c"] retire le nombre d'éléments indiqué du tableau en partant du début sans changer les valeurs du tableau initial|
+ | slice(-1)|  ["b", "c"] retire le nombre d'éléments indiqué du tableau en partant du début et en comptant depuis la fin sans changer les valeurs du tableau initial|
+ | includes("c")| true vérifie si la valeur existe|
+ | indexOf("c")| 2 renvoi le position (index) de la valeur dans le tableau|
+ | reduce((acc, cou)=> acc + cou ) |  additionne tous les éléments du tableau|
 
 
 
