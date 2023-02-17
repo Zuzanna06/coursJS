@@ -4,6 +4,20 @@
     box-sizing: 0;
 }
 
-#rond {
-    
+ .carres{
+    height: 80px;
+    width: 80px;
+    background-color: rgb(217, 226, 43);
+    margin: 5px;
+}
+
+.test{
+    height: 80px;
+    width: 80px;
+    background-color: rgb(67, 43, 226);
+    margin: 5px;
+}
+
+#img{
+    height: 250px;
 }

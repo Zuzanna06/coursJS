@@ -186,31 +186,6 @@ var arrayStr = ["a", "b", "c"];
 
 
 
-# Titre
-## titre
-### titre
-#### titre
-##### titre
-###### titre
-texte
-> section
->
-> ca part de ca !!
-> **en gras**
-
-quand j'ecri du texte
-et ca donne ca
-
-**gras**
-
-***italique***
-
-*italique*
-
-1. numero 1
-2. numero 2
-3. numero 3
-
 > section
 >
 > > avec section

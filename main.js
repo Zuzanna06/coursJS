@@ -114,26 +114,26 @@
 //     alert('revenez demain')
 //   }
 
-var  note = 15;
-var noteAmericaine = "";
+// var  note = 15;
+// var noteAmericaine = "";
 
-if (note > 19 ) {
-    noteAmericaine = "A+"
-}else if (note >= 18 && note <= 19) {
-noteAmericaine = "A"  
-}else if (note >= 15 && note <18) {
-noteAmericaine = "B"  
-}else if (note >= 12 && note <15) {
-noteAmericaine = "C"  
-}else if (note >= 9 && note <12) {
-noteAmericaine = "D"  
-}else if (note >= 6 && note < 9) {
-noteAmericaine = "E"  
-}else if (note < 6){
-noteAmericaine = "F"  
-}else {
-    noteAmericaine = "ABS"
-}
+// if (note > 19 ) {
+//     noteAmericaine = "A+"
+// }else if (note >= 18 && note <= 19) {
+// noteAmericaine = "A"  
+// }else if (note >= 15 && note <18) {
+// noteAmericaine = "B"  
+// }else if (note >= 12 && note <15) {
+// noteAmericaine = "C"  
+// }else if (note >= 9 && note <12) {
+// noteAmericaine = "D"  
+// }else if (note >= 6 && note < 9) {
+// noteAmericaine = "E"  
+// }else if (note < 6){
+// noteAmericaine = "F"  
+// }else {
+//     noteAmericaine = "ABS"
+// }
 
 // le case ne prend pas le valeur unique (number string ext)
 // on peut maitre un swich dans un if mais pas if dans le case
@@ -234,19 +234,19 @@ noteAmericaine = "F"
 // }
 
 
-var arrayNbr = [1 ,2 ,3];
-var arrayStr = ["a", "b", "c"];
+// var arrayNbr = [1 ,2 ,3];
+// var arrayStr = ["a", "b", "c"];
 
-arrayNbr.push(4); // envoie le 4 à la fin du tableau [1 ,2 ,3, 4]
-arrayNbr.pop(); // retire le dernier du tableau car renvoi [1,2]
-arrayNbr.shift(); //[2,3] retire la premiere valeure
-arrayNbr.unshift(0); //[0, 1 ,2 ,3, ] ajute la valeur indiqué au debut du tableau
+// arrayNbr.push(4); // envoie le 4 à la fin du tableau [1 ,2 ,3, 4]
+// arrayNbr.pop(); // retire le dernier du tableau car renvoi [1,2]
+// arrayNbr.shift(); //[2,3] retire la premiere valeure
+// arrayNbr.unshift(0); //[0, 1 ,2 ,3, ] ajute la valeur indiqué au debut du tableau
 
 
-arrayStr.concat("d");
-console.table(arrayStr);
+// arrayStr.concat("d");
+// console.table(arrayStr);
 
-console.table(arrayStr);
+// console.table(arrayStr);
 
-console.log(arrayStr);
+// console.log(arrayStr);
 
